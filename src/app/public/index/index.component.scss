@@ -1,0 +1,21 @@
+.root-container {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+}

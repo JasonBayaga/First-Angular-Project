@@ -1,0 +1,31 @@
+
+<div class="root-container">
+  <div class="container">
+    <div class="hero bg-dark text-light rounded-3 p-4">
+      <h3>Hello World! This is the index page.</h3>
+        <p>Welcome to the index page of our application.</p>
+
+        <div class="card">
+          <div class="card-body bg-black text-light rounded-3 p-4">
+            <main>
+              <router-outlet></router-outlet>
+            </main>
+          </div>
+        </div>
+
+        <a 
+          class="btn bg-black btn-sm rounded-5 text-light m-1 mt-3 p-2"
+          routerLink="/public/welcome/" routerLinkActive="Active"
+        >
+        <i class="bi bi-emoji-smile"></i>
+        </a>
+        <a 
+          class="btn bg-black btn-sm rounded-5 text-light m-1 mt-3 p-2"
+          routerLink="/public/welcome/intro" routerLinkActive="Active"
+        >
+        Introduction
+        </a>
+
+    </div>
+  </div>
+</div>
