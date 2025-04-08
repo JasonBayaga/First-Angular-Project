@@ -1,21 +1,25 @@
-.root-container {
-  display: flex;
-  flex-direction: column;
-  width: 900px;
-  margin: 10px;
-  padding: 10px;
-}
+// .root-container {
+//   display: flex;
+//   flex-direction: column;
+// }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
+// .container {
+//   justify-content: space-between;
+//   margin-bottom: 20px;
+// }
 
 .card-body {
   display: flex;
   flex-direction: column;
+  width: auto;
   height: 400px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.card {
+  width: 450px;
+  height: 450px;
   overflow: hidden;
   overflow-y: auto;
 }
